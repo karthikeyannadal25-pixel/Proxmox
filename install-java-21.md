@@ -97,3 +97,21 @@ Expected output:
 ```
 
 ---
+
+## Install Gradle (if you're building Spring Boot applications)
+
+If you're planning to run your Spring Boot projects:
+
+```bash
+sudo apt install gradle -y
+```
+
+Or, if your project includes a Gradle Wrapper (`gradlew`), you don't need to install Gradle globally—just run:
+
+```bash
+chmod +x gradlew
+./gradlew build
+```
+
+Since you've previously worked on Spring Boot 3.x projects (Candidate OnBoarding, CoreFlow, etc.), **OpenJDK 21** is the recommended JDK version.
+
